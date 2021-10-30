@@ -6,7 +6,7 @@ var blookFunction = () => {
     const url = (prompt(`What do you want your blook to look like(URL only)`))
     const quantity = Number(prompt(`What quanity(number) of the blook do you want?`));
     const sellprice = (prompt(`What Number do you want the sell price to be?`));
-    const rarity = (prompt(`What quanity(number) of the blook do you want?`));
+    const rarity = (prompt(`What Rarity do you want the blook to be?`));
     const color = (prompt(`What color do you want the rarity to be(Dont include the hashtag)`));
     
     document.getElementsByClassName('styles__blook___2Yq1S-camelCase')[0].src = blook;
