@@ -33,6 +33,53 @@ var onClick = () => {
 try { 
     blookFunction();
     onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    onClick();
+    
     } catch (error) {
         alert(error)
     }
