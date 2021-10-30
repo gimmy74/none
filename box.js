@@ -13,6 +13,7 @@ var blookFunction = () => {
     document.getElementsByClassName('styles__miniBlookContainer___1Y4oH-camelCase')[0].style = 'background: #000fff;';       
     document.getElementsByClassName('styles__box___2pZ5d-camelCase')[0].style = 'background: #000fff;';
     document.getElementsByClassName('styles__box___2pZ5d-camelCase')[0].style = 'color: #000fff;';
+    document.getElementsByClassName('styles__blook___2Yq1S-camelCase')[0].src = 'https://cdn.discordapp.com/emojis/796921352774877224.png?size=96'
     
 }
 try { 
