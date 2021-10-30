@@ -7,7 +7,7 @@ var blookFunction = () => {
 const tokencost = (prompt(`How much do you want the box to be?`))
 
 
-    document.getElementsByClassName('styles__boxHeader___UoHkq-camelCase').innerText = boxname;
+    document.getElementsByClassName('styles__boxHeaderContainer___UoHkq-camelCase').innerText = boxname;
     document.getElementsByClassName('styles__mysteryBoxIcon___18nWF-camelCase').style = `color: #${color};`;
     document.getElementsByClassName('styles__boxTokenContainer___1c1GF').innerText = tokencost;        
     
