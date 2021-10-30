@@ -27,11 +27,11 @@ var onClick = () => {
     document.getElementsByClassName('styles__headerTextContainer___xVg-I-camelCase')[0].children[0].innerText = name;
     document.getElementsByClassName('styles__blookContainer___GKC0D-camelCase')[0].src = url;
 }
+onClick();
 }
 
 try { 
     blookFunction();
-    onClick();
     } catch (error) {
         alert(error)
     }
