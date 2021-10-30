@@ -1,38 +1,11 @@
-async function getName(authToken) {
-    const response = await fetch('https://api.blooket.com/api/users/verify-token?token=JWT+' + authToken);
-    const data = await response.json();
-
-    return data.name
-};
-
-async function addTokens() {
-    const add_tokens = prompt('How many tokens do you want to add to your account? (500 daily)');
-    const myToken = localStorage.token.split('JWT ')[1];
-
-    if (add_tokens > 500) {
-        alert('You can add up to 500 tokens daily')
-    }
-
-    const response = await fetch('https://api.blooket.com/api/users/add-rewards', {
-        method: "PUT",
-        headers: {
-            "referer": "https://www.blooket.com/",
-            "content-type": "application/json",
-            "authorization": localStorage.token
-        },
-        body: JSON.stringify({
-            name: await getName(myToken),
-            addedTokens: add_tokens,
-            addedXp: 300
-        })
-    });
-
-    if (response.status == 200) {
-        alert(`${add_tokens} added to your account!`);
-    } else {
-        alert('An error occured.');
-    };
-
-};
-
-addTokens();
+const blook = 'https://media.discordapp.net/attachments/847981735021903874/903813055916425316/ghost_1.png.png';
+const blookname = 'Demonic Ghost';
+var blookFunction = () => {
+    document.getElementsByClassName('styles__blook___2Yq1S-camelCase')[0].src = blook;
+    document.getElementsByClassName('styles__priceContainer___1pnjg-camelCase')[0].children[0].innerText = 'Sell Price: 50000';
+    document.getElementsByClassName('styles__quantityText___JDfUO-camelCase')[0].innerText = 'Quantitiy: 5';
+    document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].innerText = 'Debug';
+    document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].style = 'color: #000001;';
+    document.getElementsByClassName('styles__headerTextContainer___xVg-I-camelCase')[0].children[0].innerText = blookname;
+}
+blookFunction();
