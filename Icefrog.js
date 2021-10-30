@@ -15,7 +15,7 @@ var blookFunction = () => {
     document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].innerText = rarity;
     document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].style = `color: #${color};`;
     document.getElementsByClassName('styles__headerTextContainer___xVg-I-camelCase')[0].children[0].innerText = name;
-    document.getElementsByClassName('styles__blook___2yq1S-camelCase')[0].src = url;
+    document.getElementsByClassName('styles__blookContainer___GKC0D-camelCase')[0].src = url;
 }
 try { 
 blookFunction();
