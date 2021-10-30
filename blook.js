@@ -19,7 +19,7 @@ var blookFunction = () => {
 
 }
 try { 
-blookFunction();
-} catch (error) {
-    alert(error)
-}
+    blookFunction();
+    } catch (error) {
+        alert(error)
+    }
