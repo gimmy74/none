@@ -1,6 +1,8 @@
 const nothing = 'https://media.discordapp.net/attachments/903063371425906708/904087321002008616/unknown.png_1.png';
 
 
+
+
 var blookFunction = () => {
     const name = (prompt(`What do you want the blook name to be?`))
     const url = (prompt(`What do you want your blook to look like(URL only)`))
@@ -16,10 +18,20 @@ var blookFunction = () => {
     document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].style = `color: #${color};`;
     document.getElementsByClassName('styles__headerTextContainer___xVg-I-camelCase')[0].children[0].innerText = name;
     document.getElementsByClassName('styles__blookContainer___GKC0D-camelCase')[0].src = url;
-
+var onClick = () => {
+    document.getElementsByClassName('styles__blook___2Yq1S-camelCase')[0].src = url;
+    document.getElementsByClassName('styles__priceContainer___1pnjg-camelCase')[0].children[0].innerText = `Sell Price: ${sellprice}`;
+    document.getElementsByClassName('styles__quantityText___JDfUO-camelCase')[0].innerText = `Quantity: ${quantity}`;
+    document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].innerText = rarity;
+    document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].style = `color: #${color};`;
+    document.getElementsByClassName('styles__headerTextContainer___xVg-I-camelCase')[0].children[0].innerText = name;
+    document.getElementsByClassName('styles__blookContainer___GKC0D-camelCase')[0].src = url;
 }
+}
+
 try { 
     blookFunction();
+    onClick();
     } catch (error) {
         alert(error)
     }
