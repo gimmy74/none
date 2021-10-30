@@ -8,8 +8,6 @@ var blookFunction = () => {
     const sellprice = (prompt(`What Number do you want the sell price to be?`));
     const rarity = (prompt(`What Rarity do you want the blook to be?`));
     const color = (prompt(`What color do you want the rarity to be(Dont include the hashtag)`));
-    const elements = document.getElementsByClassName('styles__blook___2Yq1S-camelCase');
-    elements[0].parentNode.removeChild(elements[0]);
     
     document.getElementsByClassName('styles__blook___2Yq1S-camelCase')[0].src = url;
     document.getElementsByClassName('styles__priceContainer___1pnjg-camelCase')[0].children[0].innerText = `Sell Price: ${sellprice}`;
@@ -18,7 +16,6 @@ var blookFunction = () => {
     document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].style = `color: #${color};`;
     document.getElementsByClassName('styles__headerTextContainer___xVg-I-camelCase')[0].children[0].innerText = name;
     document.getElementsByClassName('styles__blookContainer___GKC0D-camelCase')[0].src = url;
-    document.getElementsByClassName('styles__blook___2Yq1S-camelCase');
 
 }
 try { 
