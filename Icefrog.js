@@ -9,14 +9,11 @@ var blookFunction = () => {
     const rarity = (prompt(`What quanity(number) of the blook do you want?`));
     const color = (prompt(`What color do you want the rarity to be(Dont include the hashtag)`));
     
-    if(!url.startsWith === 'http' || 'https') {
-        alert(`You need to add a Url that has either http or https in the beginning`);
-    }
     document.getElementsByClassName('styles__blook___2Yq1S-camelCase')[0].src = blook;
     document.getElementsByClassName('styles__priceContainer___1pnjg-camelCase')[0].children[0].innerText = `Sell Price: ${sellprice}`;
     document.getElementsByClassName('styles__quantityText___JDfUO-camelCase')[0].innerText = `Quantity: ${quantity}`;
     document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].innerText = rarity;
-    document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].style = `color: ${color};`;
+    document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].style = `color: #${color};`;
     document.getElementsByClassName('styles__headerTextContainer___xVg-I-camelCase')[0].children[0].innerText = blookname;
 }
 blookFunction();
