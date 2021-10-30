@@ -7,9 +7,9 @@ var blookFunction = () => {
 const tokencost = Number(prompt(`How much do you want the box to be?`));
 
 
-    document.getElementsByClassName('styles__boxHeader___UoHkq-camelCase').children[0].innerText = boxname;
-    document.getElementsByClassName('styles__mysteryBoxContainer___18nWF-camelCase').children[0].style = `color: #${color};`;
-    document.getElementsByClassName('styles__boxTokenContainer___NdiWk-camelCase').childeren[0].innerText = tokencost;        
+    document.getElementsByClassName('styles__boxHeader___UoHkq-camelCase')[0].children[0].innerText = boxname;
+    document.getElementsByClassName('styles__mysteryBoxContainer___18nWF-camelCase')[0].children[0].style = `color: #${color};`;
+    document.getElementsByClassName('styles__boxTokenContainer___NdiWk-camelCase')[0].childeren[0].innerText = tokencost;        
     
     
 }
