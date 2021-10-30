@@ -9,9 +9,9 @@ const tokencost = Number(prompt(`How much do you want the box to be?`));
 var blookFunction = () => {
  
 
-    document.getElementsByClassName('styles__boxHeader___UoHkq-camelCase')[0].children[0].innerText = 'Red box';
-    document.getElementsByClassName('styles__mysteryBoxContainer___18nWF-camelCase')[0].children[0].style = `color: #0000ff;`;
-    document.getElementsByClassName('styles__boxTokenContainer___NdiWk-camelCase')[0].childeren[0].innerText = `25`;        
+    document.getElementsByClassName('styles__boxHeader___UoHkq-camelCase')[0].innerText = 'Red box';
+    document.getElementsByClassName('styles__mysteryBoxIcon___18nWF-camelCase')[0].style = `color: #0000ff;`;
+    document.getElementsByClassName('styles__boxTokenText___NdiWk-camelCase')[0].innerText = `25`;        
     
     
 }
