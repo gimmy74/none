@@ -711,9 +711,9 @@ var l = get_random(a);
 removeAllInstances(a, l);
 var n = {
         frogs: {
-            middle: "#3b9614",
-            shadow: "#000001",
-            background: "#1b4d06;"
+            middle: "#cfcffc",
+            shadow: "#000fff",
+            background: "000449;"
         },
         jungleAnimals: {
             background: "#000001",
