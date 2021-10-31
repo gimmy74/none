@@ -713,7 +713,7 @@ var n = {
         frogs: {
             middle: "#cfcffc",
             shadow: "#000fff",
-            background: "000449;"
+            background: "#252eda;"
         },
         jungleAnimals: {
             background: "#000001",
