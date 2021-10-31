@@ -714,6 +714,11 @@ var n = {
             middle: "#3b9614",
             shadow: "#000001",
             background: "#1b4d06;"
+        },
+        jungleAnimals: {
+            background: "#000001",
+            middle: "#000001",
+            shadow: "#000001"
         }
     },
     r = "animal",
