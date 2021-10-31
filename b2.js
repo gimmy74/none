@@ -659,6 +659,8 @@ spoofBlooks = {
     "Sunset Frog": "https://cdn.discordapp.com/attachments/847500838825754649/903799502920617984/sunset_frog.png",
     "Vibrant Frog": "https://cdn.discordapp.com/attachments/847500838825754649/903799505747591168/vibrant_frog.png",
     "RGB Frog": "https://cdn.discordapp.com/attachments/851148455874789376/904163907181101106/final_617cae4b6b4a5900c7836dac_445679.gif",
+    "Ice Frog": "https://cdn.discordapp.com/attachments/903063371425906708/904087321002008616/unknown.png_1.png",
+    "Troll": "https://media.discordapp.net/attachments/903063371425906708/903842271089279057/unknown.png",
     Egg: "https://res.cloudinary.com/blooket/image/upload/v1593095354/Media/defense/egg.svg",
     PigBomb: "https://res.cloudinary.com/blooket/image/upload/v1593095358/Media/defense/pigBomb.svg",
     DiscoBall: "https://res.cloudinary.com/blooket/image/upload/v1593095364/Media/defense/discoBall.svg",
