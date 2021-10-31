@@ -682,7 +682,7 @@ function spoofBlooksFunc() {
     for (let e = 0; e < keys(spoofBlooks).length; e++) {
         var a = values(spoofBlooks)[e],
             s = keys(spoofBlooks)[e],
-            t = `<button onclick="${`() => \n        pass\n        document.getElementsByClassName('styles__blook___2Yq1S-camelCase')[0].src = '${a}';\n        document.getElementsByClassName('styles__priceContainer___1pnjg-camelCase')[0].children[0].innerText = 'Sell Price: 1500';\n        document.getElementsByClassName('styles__quantityText___JDfUO-camelCase')[0].innerText = 'Quantitiy: 1';\n        document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].innerText = 'Ancient';\n        document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].style = 'color: #ed34c5;';\n        document.getElementsByClassName('styles__headerTextContainer___xVg-I-camelCase')[0].children[0].innerText = '${s}';\n    `}"\n role="button"tabindex="0"style="font-size: 0px; outline: none; user-select: none; margin: 5px 1vw; position: relative; border: none; backface-visibility: hidden; background-color: transparent;">\n<div class="styles__blookContainer___GKC0D-camelCase"\n style="z-index: 1; margin: 0px auto; width: 5vw; height: 5.75vw; cursor: pointer; position: relative; outline: none;">\n<img src="${a}"alt="${s} Blook"draggable="false"class="styles__blook___2Yq1S-camelCase"></div>\n</button>`;
+            t = `<button onclick="${`() => \n        document.getElementsByClassName('styles__blook___2Yq1S-camelCase')[0].src = '${a}';\n        document.getElementsByClassName('styles__priceContainer___1pnjg-camelCase')[0].children[0].innerText = 'Sell Price: 1500';\n        document.getElementsByClassName('styles__quantityText___JDfUO-camelCase')[0].innerText = 'Quantitiy: 1';\n        document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].innerText = 'Ancient';\n        document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].style = 'color: #ed34c5;';\n        document.getElementsByClassName('styles__headerTextContainer___xVg-I-camelCase')[0].children[0].innerText = '${s}';\n    `}"\n role="button"tabindex="0"style="font-size: 0px; outline: none; user-select: none; margin: 5px 1vw; position: relative; border: none; backface-visibility: hidden; background-color: transparent;">\n<div class="styles__blookContainer___GKC0D-camelCase"\n style="z-index: 1; margin: 0px auto; width: 5vw; height: 5.75vw; cursor: pointer; position: relative; outline: none;">\n<img src="${a}"alt="${s} Blook"draggable="false"class="styles__blook___2Yq1S-camelCase"></div>\n</button>`;
         o.innerHTML += t
     }
 }
@@ -699,7 +699,13 @@ function spoofMarket() {
     var o = document.getElementsByClassName("styles__boxContainer___2d8tl-camelCase")[0],
         a = ["Golden Frog", "Blood Frog", "Bog-dwelling Frog", "Foggy Frog", "Lavender Frog", "Minty Frog", "Moonlit Frog", "Paradise Frog", "Sunrise Frog", "Sunset Frog", "Vibrant Frog"],
         s = get_random(a);
-
+    removeAllInstances(a, s);
+    var t = get_random(a);
+    removeAllInstances(a, t);
+    var e = get_random(a);
+    removeAllInstances(a, e);
+    var l = get_random(a);
+    removeAllInstances(a, l);
     var n = {
             frogs: {
                 middle: "#35d0e8",
