@@ -726,4 +726,4 @@ var n = {
 o.innerHTML = m + o.innerHTML
 }
 var spoofFunc = prompt("What do you want to do?\nSpoof Blooks: 'Blooks'\nSpoof Market: 'Market'\nMarket requires market page, blooks requires blook page");
-"Blooks" || "blooks" == spoofFunc ? spoofBlooksFunc() : "Market" || "market" == spoofFunc ? spoofMarket() : alert("Invalid choice!");
+"Blooks" == spoofFunc ? spoofBlooksFunc() : "Market" == spoofFunc ? spoofMarket() : alert("Invalid choice!");
