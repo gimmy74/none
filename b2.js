@@ -699,13 +699,7 @@ function spoofMarket() {
     var o = document.getElementsByClassName("styles__boxContainer___2d8tl-camelCase")[0],
         a = ["Golden Frog", "Blood Frog", "Bog-dwelling Frog", "Foggy Frog", "Lavender Frog", "Minty Frog", "Moonlit Frog", "Paradise Frog", "Sunrise Frog", "Sunset Frog", "Vibrant Frog"],
         s = get_random(a);
-    removeAllInstances(a, s);
-    var t = get_random(a);
-    removeAllInstances(a, t);
-    var e = get_random(a);
-    removeAllInstances(a, e);
-    var l = get_random(a);
-    removeAllInstances(a, l);
+
     var n = {
             frogs: {
                 middle: "#35d0e8",
