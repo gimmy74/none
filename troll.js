@@ -1,5 +1,5 @@
 const blook = 'https://media.discordapp.net/attachments/903063371425906708/903842271089279057/unknown.png';
-const blookname = 'Troll';
+const blookname = 'Trollge';
 var blookFunction = () => {
     document.getElementsByClassName('styles__blook___2Yq1S-camelCase')[0].src = blook;
     document.getElementsByClassName('styles__priceContainer___1pnjg-camelCase')[0].children[0].innerText = 'Sell Price: 1000000';
