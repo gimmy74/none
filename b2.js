@@ -666,6 +666,7 @@ spoofBlooks = {
     "RGB Crab": "https://cdn.discordapp.com/attachments/851148455874789376/904211769373888532/final_617e0e54f90130008009e9b6_612640.gif",
     "Cute Ogre": "https://cdn.discordapp.com/emojis/796921352774877224.png?size=96",
     "Elmo": "https://cdn.discordapp.com/emojis/837751557717229578.png?size=96",
+    "Juice WRLD": "https://media.pitchfork.com/photos/5f071ee5197c383b13eebc88/1:1/w_1500,h_1500,c_limit/Juice-WRLD.jpg",
     Egg: "https://res.cloudinary.com/blooket/image/upload/v1593095354/Media/defense/egg.svg",
     PigBomb: "https://res.cloudinary.com/blooket/image/upload/v1593095358/Media/defense/pigBomb.svg",
     DiscoBall: "https://res.cloudinary.com/blooket/image/upload/v1593095364/Media/defense/discoBall.svg",
@@ -685,15 +686,15 @@ spoofBlooks = {
 };
 
 function spoofBlooksFunc() {
-var o = document.getElementsByClassName("styles__blookArrayContainer___9Ae0L-camelCase")[0];
-o.innerHTML = "";
-for (let e = 0; e < Object.keys(spoofBlooks).length; e++) {
-    var a = Object.values(spoofBlooks)[e],
-        s = Object.keys(spoofBlooks)[e],
-        t = `<button onclick="${`() => \n        pass\n        document.getElementsByClassName('styles__blook___2Yq1S-camelCase')[0].src = '${a}';\n        document.getElementsByClassName('styles__priceContainer___1pnjg-camelCase')[0].children[0].innerText = 'Sell Price: 2000';\n        document.getElementsByClassName('styles__quantityText___JDfUO-camelCase')[0].innerText = 'Quantity: 2843';\n        document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].innerText = 'Ancient';\n        document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].style = 'color: #ed34c5;';\n        document.getElementsByClassName('styles__headerTextContainer___xVg-I-camelCase')[0].children[0].innerText = '${s}';\n    `}"\n role="button"tabindex="0"style="font-size: 0px; outline: none; user-select: none; margin: 5px 1vw; position: relative; border: none; backface-visibility: hidden; background-color: transparent;">\n<div class="styles__blookContainer___GKC0D-camelCase"\n style="z-index: 1; margin: 0px auto; width: 5vw; height: 5.75vw; cursor: pointer; position: relative; outline: none;">\n<img src="${a}"alt="${s} Blook"draggable="false"class="styles__blook___2Yq1S-camelCase"></div>\n</button>`;
-    o.innerHTML += t
-}
-}
+    var o = document.getElementsByClassName("styles__blookArrayContainer___9Ae0L-camelCase")[0];
+    o.innerHTML = "";
+    for (let e = 0; e < Object.keys(spoofBlooks).length; e++) {
+        var a = Object.values(spoofBlooks)[e],
+            s = Object.keys(spoofBlooks)[e],
+            t = `<button onclick="${`() => \n        pass\n        document.getElementsByClassName('styles__blook___2Yq1S-camelCase')[0].src = '${a}';\n        document.getElementsByClassName('styles__priceContainer___1pnjg-camelCase')[0].children[0].innerText = 'Sell Price: 2000';\n        document.getElementsByClassName('styles__quantityText___JDfUO-camelCase')[0].innerText = 'Quantity: 2843';\n        document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].innerText = 'Ancient';\n        document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].style = 'color: #ed34c5;';\n        document.getElementsByClassName('styles__headerTextContainer___xVg-I-camelCase')[0].children[0].innerText = '${s}';\n    `}"\n role="button"tabindex="0"style="font-size: 0px; outline: none; user-select: none; margin: 5px 1vw; position: relative; border: none; backface-visibility: hidden; background-color: transparent;">\n<div class="styles__blookContainer___GKC0D-camelCase"\n style="z-index: 1; margin: 0px auto; width: 5vw; height: 5.75vw; cursor: pointer; position: relative; outline: none;">\n<img src="${a}"alt="${s} Blook"draggable="false"class="styles__blook___2Yq1S-camelCase"></div>\n</button>`;
+        o.innerHTML += t
+    }
+    }
 
 function get_random(o) {
 return o[Math.floor(Math.random() * o.length)]
