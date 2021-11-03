@@ -108,7 +108,7 @@ Chick: "https://blooket.s3.us-east-2.amazonaws.com/blooks/farmAnimals/chick.svg"
     Narwhal: "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/narwhal.svg",
     "Baby Shark": "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/babyShark.svg",
     Pumpkin: "https://blooket.s3.us-east-2.amazonaws.com/blooks/halloween/pumpkin.svg",
-    `${name}`: `${url}`, 
+    '${name}': '${url}', 
     }
 
 var blookFunction = () => {
