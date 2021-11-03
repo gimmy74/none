@@ -107,9 +107,10 @@ Chick: "https://blooket.s3.us-east-2.amazonaws.com/blooks/farmAnimals/chick.svg"
     Octopus: "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/octopus.svg",
     Narwhal: "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/narwhal.svg",
     "Baby Shark": "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/babyShark.svg",
-    Pumpkin: "https://blooket.s3.us-east-2.amazonaws.com/blooks/halloween/pumpkin.svg",
-    '${name}': '${url}', 
+    Pumpkin: "https://blooket.s3.us-east-2.amazonaws.com/blooks/halloween/pumpkin.svg", 
     }
+yourblook = {
+}
 
 var blookFunction = () => {
     var o = document.getElementsByClassName("styles__blookArrayContainer___9Ae0L-camelCase")[0];
