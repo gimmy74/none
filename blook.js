@@ -112,12 +112,11 @@ Chick: "https://blooket.s3.us-east-2.amazonaws.com/blooks/farmAnimals/chick.svg"
     }
 
 var blookFunction = () => {
-
+    var o = document.getElementsByClassName("styles__blookArrayContainer___9Ae0L-camelCase")[0];
+o.innerHTML = "";
   for (let e = 0; e < Object.keys(blooks).length; e++) {
         var a = Object.values(blooks)[e],
             s = Object.keys(blooks)[e],
-    var o = document.getElementsByClassName("styles__blookArrayContainer___9Ae0L-camelCase")[0];
-o.innerHTML = "";
     t = `<button onclick="${`() => \n        pass\n        document.getElementsByClassName('styles__blook___2Yq1S-camelCase')[0].src = '${a}';\n        document.getElementsByClassName('styles__priceContainer___1pnjg-camelCase')[0].children[0].innerText = 'Sell Price: ${sellprice}';\n        document.getElementsByClassName('styles__quantityText___JDfUO-camelCase')[0].innerText = 'Quantity: ${quantity}';\n        document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].innerText = '${rarity}';\n        document.getElementsByClassName('styles__rarityText___3sXH2-camelCase')[0].style = 'color: #${color};';\n        document.getElementsByClassName('styles__headerTextContainer___xVg-I-camelCase')[0].children[0].innerText = '${a}';\n    `}"\n role="button"tabindex="0"style="font-size: 0px; outline: none; user-select: none; margin: 5px 1vw; position: relative; border: none; backface-visibility: hidden; background-color: transparent;">\n<div class="styles__blookContainer___GKC0D-camelCase"\n style="z-index: 1; margin: 0px auto; width: 5vw; height: 5.75vw; cursor: pointer; position: relative; outline: none;">\n<img src="${s}"alt="${a} Blook"draggable="false"class="styles__blook___2Yq1S-camelCase"></div>\n</button>`;
     o.innerHTML += t
 }
