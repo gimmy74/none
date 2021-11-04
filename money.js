@@ -1,10 +1,10 @@
 
-var blookFunction = () => {
+var Tokens = () => {
     const tokens = (prompt(`How many tokens do you want?`))
     document.getElementsByClassName('styles__tokenBalanceText___2eYY7-camelCase')[0].innerText = `${tokens}`;
 } 
 try { 
-    blookFunction();
+    Tokens();
     } catch (error) {
         alert(error)
     }
