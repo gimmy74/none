@@ -1,5 +1,3 @@
-
-
 const name = prompt(`What do you want the blook name to be?`);
 const url = prompt(`What do you want your blook to look like(URL only)`);
 const quantity = prompt(`What quanity(number) of the blook do you want?`);
