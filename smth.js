@@ -5,8 +5,22 @@ if(cmd == 'auto') {
       }, 1)
   
     setInterval(() => {
-       Game.ClickCookie(); 
+       Game.ClickCookie()
+        Game.ClickCookie()
+        Game.ClickCookie()
+        Game.ClickCookie()
+        Game.ClickCookie()
+        Game.ClickCookie()
+        Game.ClickCookie()
+        Game.ClickCookie()
+        Game.ClickCookie()
+        Game.ClickCookie()
+        Game.ClickCookie()
+        Game.ClickCookie()
+        Game.ClickCookie()
+        Game.ClickCookie()
+        Game.ClickCookie(); 
        Game.lastClick=0 
-       }, 1)
+       }, 0.000000000000000000000001)
 
 }
