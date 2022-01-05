@@ -1,16 +1,18 @@
-var timecount=0;
-var nums=[
-"18XXXXXXXXX",
-"18XXXXXXXXX"
-]
-function autoClick(){
-	var index = Math.floor((Math.random()*nums.length));
-	$("#busiNumSmall").val(nums[index]);
-        $("#diagnoseSmall").click(); 
-        timecount+=1;
-       if(timecount=== 7){
-       clearInterval(interval);
-       } 
+@import url(https://css.reizu.moe/xcirno/xcirno.css);
+
+:root {
+    --accent-color: #0670c2;
+    --health-color: var(--accent-color);
+    --ammo-color: #fff;
+    --premium-color: #fbc02d;
+    --verified-color: #40c4ff;
+    --menu-bg-color: rgba(15, 15, 15, .2);
+    --menu-bg-color-secondary: rgba(0, 0, 0, .5);
+    --ingame-bg-color: rgba(15, 15, 15,.2);
+    --text-transform: none;
 }
 
-var interval=setInterval(autoClick,10000);
+@font-face {
+    font-family: gamefont;
+    src: url(https://reizu.moe/fonts/Tahoma.ttf);
+}
